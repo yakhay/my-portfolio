@@ -2,6 +2,8 @@
 
 
 import emailjs from 'emailjs-com';
+import { FaPhoneAlt } from "react-icons/fa";
+
 
 import React, { forwardRef } from 'react';
 
@@ -50,13 +52,23 @@ const Contact = forwardRef((props, ref) => {
                 <h2 className='font-bold text-[32px] mt-[20px]'>DON’T BE SHY</h2>
                 <p className=' w-[400px] lg:[500px] mt-[20px]'>Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect. I'm always open to new projects and discussions.</p>
                 <div className='flex justify-between items-center w-[300px] mt-[20px]'>
-                    <img src="/images/Vector.png" alt="" />
+                    <img className='w-[45px] h-[30px]' src="/images/Vector.png" alt="" />
                     <div >
                         <h3>Email</h3>
                         <p>yassinekhay.dev@gmail.com</p>
                     </div>
                     
+                    
                 </div>
+                
+                <div className='flex justify-start items-center w-[300px] mt-[20px]'>
+                        <FaPhoneAlt color='#0FE1C2' className='w-[45px] h-[30px]'/>
+                        <div className='ml-[50px]'>
+                            <h3>Phone</h3>
+                            <p>+212 6 15 33 66 77</p>
+                        </div>
+                </div>
+                
                 <div  className='flex justify-between items-center  p-[70px] w-[400px] mt-[20px]'>
                         <a href="https://www.linkedin.com/in/khay-yassine-7a706b261/" target="_blank" rel="noopener noreferrer"><img src="/images/media/skill-icons_linkedin.png" alt="" /></a>
                         <a href="https://www.instagram.com/_yakhay_/" target="_blank" rel="noopener noreferrer"><img src="/images/media/skill-icons_instagram.png" alt="" /></a>

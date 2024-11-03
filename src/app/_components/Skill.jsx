@@ -14,35 +14,35 @@ const Skill = forwardRef((props, ref) => {
             
             <div className='flex items-center justify-center  flex-col'>
                 <img src="/images/skills/Group 15 (1).png" alt="" />
-                <p className='mt-[15px] text-[24px]'>c</p>
+                <p className='mt-[15px] text-[30px]'>c</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>
                 <img src="/images/skills/Group 15 (2).png" alt="" />
-                <p className='mt-[15px] text-[24px]'>c++</p>    
+                <p className='mt-[15px] text-[30px]'>c++</p>    
             </div>
             <div className='flex items-center justify-center  flex-col'>
                 <img src="/images/skills/Group 15 (2).png" alt="" />
-                <p className='mt-[15px] text-[24px]'>javascript</p>
+                <p className='mt-[15px] text-[30px]'>javascript</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>
                 <img src="/images/skills/Group 15 (5).png" alt="" />
-                <p className='mt-[15px] text-[24px]'>react</p>
+                <p className='mt-[15px] text-[30px]'>react</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>
                 <img src="/images/skills/Group 15 (1).png" alt="" />
-                <p className='mt-[15px] text-[24px]'>html && css</p>
+                <p className='mt-[15px] text-[30px]'>html && css</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>
                 <img src="/images/skills/Group 15 (3).png" alt="" />
-                <p className='mt-[15px] text-[24px]'>Next js</p>
+                <p className='mt-[15px] text-[30px]'>Next js</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>
                 <img src="/images/skills/Group 15 (6).png" alt="" />
-                <p className='mt-[15px] text-[24px]'>tailwind css</p>
+                <p className='mt-[15px] text-[30px]'>tailwind css</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>
                 <img src="/images/skills/Group 15 (4).png" alt="" />
-                <p className='mt-[15px] text-[24px]'>Git && GitHub</p>
+                <p className='mt-[15px] text-[30px]'>Git && GitHub</p>
             </div>
         </div>
     </div>

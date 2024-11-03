@@ -18,7 +18,7 @@ const Introduce = forwardRef((props, ref) => {
         <div className='grid grid-cols-1  lg:grid-cols-2 lg:w-[60%] mt-[150px]'>
               <div className='w-[400px] flex justify-between items-start flex-col h-[400px]'>
                       <h3 className='text-[24px] text-white'>Welcome to my portfolio</h3>
-                      <h1 className='text-[48px] text-white'>HELLO I AM KHAY YASSINE</h1>
+                      <h1 className='text-[48px] text-white font-custom'>HELLO I AM YASSINE KHAY</h1>
                       <p className='text-[18px] text-white'>Web Developer , Frontend</p>
                       
                       

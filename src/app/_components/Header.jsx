@@ -10,7 +10,7 @@ function Header({ scrollToSection }) {
     <div className="flex h-16 items-center justify-between">
       <div className="flex-1 md:flex md:items-center md:gap-12">
         
-                <img className='w-[60px] h-[60px]  shadow-[#0FE1C2] shadow-inner rounded-[50%]' src="/images/yakhay.png" alt="yakhay" />
+                <img className='w-[50px] h-[50px]  shadow-[#0FE1C2] shadow-inner rounded-[50%]' src="/images/yakhay.png" alt="yakhay" />
        
       </div>
 
