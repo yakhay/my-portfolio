@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.bg-cover-custom {
+  background-image: url('/images/cover.png');
+  background-size: cover;
+  background-position: center;
+}
+h1 , h2 , h3 , h4 , h5 , p, a ,button {
+  color: rgb(255, 252, 246);
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  cursor: pointer;
+}
