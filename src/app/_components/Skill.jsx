@@ -9,7 +9,7 @@ const Skill = forwardRef((props, ref) => {
         
         <div className='w-full'>
                 <h1 className='text-[48px] mb-[20px] text-center'>Skills</h1>
-            </div>
+            </div> 
         <div className='grid grid-cols-2 lg:grid-cols-4  items-center gap-24'>
             
             <div className='flex items-center justify-center  flex-col'>
