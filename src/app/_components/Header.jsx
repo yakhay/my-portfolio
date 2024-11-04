@@ -18,7 +18,7 @@ function Header({ scrollToSection }) {
         <nav aria-label="Global" className="hidden md:block" >
           <ul className="flex items-center gap-6 text-sm">
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75 " id='home'  onClick={() => scrollToSection('home')} > Home </a>
+              <a className="text-[#13F3A7] transition hover:text-gray-500/75 " id='home'  onClick={() => scrollToSection('home')} > Home </a>
               
             </li>
 
