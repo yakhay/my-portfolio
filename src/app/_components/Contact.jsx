@@ -22,11 +22,11 @@ const Contact = forwardRef((props, ref) => {
             message: form.message.value,
         };
     
-        // Use EmailJS or your preferred service here
+        
         emailjs.send('service_huc9jsm', 'template_ko2iq0d', data, '_DGJ18cN9BokZsCiI')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
-                // Optionally, reset the form or show a success message
+                
                 form.reset();
             })
             .catch((error) => {
@@ -65,12 +65,12 @@ const Contact = forwardRef((props, ref) => {
                         <FaPhoneAlt color='#0FE1C2' className='w-[45px] h-[30px]'/>
                         <div className='ml-[50px]'>
                             <h3>Phone</h3>
-                            <p>+212 6 15 33 66 77</p>
+                            <p>+212 7 67 49 92 01</p>
                         </div>
                 </div>
                 
                 <div  className='flex justify-between items-center  p-[70px] w-[400px] mt-[20px]'>
-                        <a href="https://www.linkedin.com/in/khay-yassine-7a706b261/" target="_blank" rel="noopener noreferrer"><img src="/images/media/skill-icons_linkedin.png" alt="" /></a>
+                        <a href="https://www.linkedin.com/in/yassine-khay-7a706b261/" target="_blank" rel="noopener noreferrer"><img src="/images/media/skill-icons_linkedin.png" alt="" /></a>
                         <a href="https://www.instagram.com/_yakhay_/" target="_blank" rel="noopener noreferrer"><img src="/images/media/skill-icons_instagram.png" alt="" /></a>
                         <a href="https://github.com/yakhay" target="_blank" rel="noopener noreferrer"><img src="/images/media/Vector (1).png" alt="" /></a>
 
