@@ -52,8 +52,8 @@ const About = forwardRef((props, ref) => {
 
                         </div>
                 </div>
-                <img className="drop-shadow-lg drop-shadow-[0_50px_80px_rgba(15,225,194,0.5)]" src="/images/about.png" alt="" />
-            </div>
+                <img className="custom-image opacity-80" src="/images/about.png" alt="" />         
+                   </div>
             
         </div>
     </div>

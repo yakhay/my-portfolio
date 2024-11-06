@@ -35,3 +35,8 @@ html {
 a {
   cursor: pointer;
 }
+
+.custom-image {
+  /* Large shadow with custom RGBA color */
+  filter: drop-shadow(0 0px 80px rgba(15, 225, 194, 0.5));
+}
