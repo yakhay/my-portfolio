@@ -50,7 +50,7 @@ const Contact = forwardRef((props, ref) => {
             
             <div>
                 <h2 className='font-bold text-[32px] mt-[20px]'>DON’T BE SHY</h2>
-                <p className=' w-[400px] lg:[500px] mt-[20px]'>Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect. I'm always open to new projects and discussions.</p>
+                <p className='   mt-[20px]'>Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect. I'm always open to new projects and discussions.</p>
                 <div className='flex justify-between items-center w-[300px] mt-[20px]'>
                     <img className='w-[45px] h-[30px]' src="/images/Vector.png" alt="" />
                     <div >
@@ -69,7 +69,7 @@ const Contact = forwardRef((props, ref) => {
                         </div>
                 </div>
                 
-                <div  className='flex justify-between items-center  p-[70px] w-[400px] mt-[20px]'>
+                <div  className='flex justify-between items-center  p-[70px]  mt-[20px]'>
                         <a href="https://www.linkedin.com/in/yassine-khay-7a706b261/" target="_blank" rel="noopener noreferrer"><img src="/images/media/skill-icons_linkedin.png" alt="" /></a>
                         <a href="https://www.instagram.com/_yakhay_/" target="_blank" rel="noopener noreferrer"><img src="/images/media/skill-icons_instagram.png" alt="" /></a>
                         <a href="https://github.com/yakhay" target="_blank" rel="noopener noreferrer"><img src="/images/media/Vector (1).png" alt="" /></a>

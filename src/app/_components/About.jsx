@@ -29,17 +29,18 @@ const About = forwardRef((props, ref) => {
 
   return (
     <div ref={ref}>
-        <div className='flex justify-between items-start flex-col p-[70px] '>
+        <div className='flex justify-center items-center flex-col p-[70px] '>
             <div className='w-full'>
                 <h1 className='text-[48px] mb-[20px] text-center'>About Me</h1>
             </div>
             
-            <div className='flex justify-center items-center w-full '>
+            <div className='grid grid-cols-1 lg:grid-cols-2 '>
+                
                 
                 
                  
-                <div className='  flex justify-between items-center flex-col mt-[40px] '>
-                    <p className='text-[24px] w-[500px]'>am proficient in the C and C++ programming languages, as well
+                <div className='  flex justify-around items-center flex-col mt-[40px] '>
+                    <p className='text-[18px] w-[360px] lg:text-[24px] md:text-[24px] lg:w-[500px] md:w-[500px]'>am proficient in the C and C++ programming languages, as well
                         as web development using JavaScript, HTML, and CSS. I use Git
                         and GitHub for version control, ensuring effective collaboration
                         and rigorous project tracking. Additionally, I have experience
@@ -51,6 +52,7 @@ const About = forwardRef((props, ref) => {
 
                         </div>
                 </div>
+                <img className="drop-shadow-lg drop-shadow-[0_50px_80px_rgba(15,225,194,0.5)]" src="/images/about.png" alt="" />
             </div>
             
         </div>
