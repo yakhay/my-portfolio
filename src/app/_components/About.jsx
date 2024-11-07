@@ -40,15 +40,15 @@ const About = forwardRef((props, ref) => {
                 
                  
                 <div className='  flex justify-around items-center flex-col mt-[40px] '>
-                    <p className='text-[18px] w-[360px] lg:text-[24px] md:text-[24px] lg:w-[500px] md:w-[500px]'>am proficient in the C and C++ programming languages, as well
+                    <p className='text-[18px] w-[320px] lg:text-[24px] md:text-[24px]  md:w-[500px]'>am proficient in the C and C++ programming languages, as well
                         as web development using JavaScript, HTML, and CSS. I use Git
                         and GitHub for version control, ensuring effective collaboration
                         and rigorous project tracking. Additionally, I have experience
                         working with React and TailwindCSS for building modern,
                         responsive web applications.</p>
                         <div className="flex justify-between mt-[20px]">
-                            <button  onClick={() => downloadCV()} className=' mt-[20px] flex justify-center items-center w-[150px] h-[52px] border-2 border-[#0FE1C2] rounded-[30px] text-[14px] mr-[10px]'>DOWNLOAD CV <LuDownloadCloud className=' w-[20px] h-[20px] rounded-[50%] ml-[10px]'/> </button>
-                            <button  onClick={() => viewCV()} className=' mt-[20px] flex justify-center items-center w-[150px] h-[52px] border-2 border-[#0FE1C2] rounded-[30px] text-[14px]'>view CV <MdOutlineGridView className=' w-[20px] h-[20px] rounded-[50%] ml-[10px]'/> </button>
+                            <button  onClick={() => downloadCV()} className=' mt-[20px] flex justify-center items-center w-[150px] h-[52px] border-2 border-[#0FE1C2] rounded-[30px] text-[12px] mr-[10px]'>DOWNLOAD CV <LuDownloadCloud className=' w-[20px] h-[20px] rounded-[50%] ml-[10px]'/> </button>
+                            <button  onClick={() => viewCV()} className=' mt-[20px] flex justify-center items-center w-[150px] h-[52px] border-2 border-[#0FE1C2] rounded-[30px] text-[12px]'>view CV <MdOutlineGridView className=' w-[20px] h-[20px] rounded-[50%] ml-[10px]'/> </button>
 
                         </div>
                 </div>

@@ -38,19 +38,19 @@ const Contact = forwardRef((props, ref) => {
         <div >
             <h1 className='text-[48px] mb-[20px] text-center'>Contact</h1>
         </div>
-        <div className='grid grid-cols-1  lg:grid-cols-2  w-[70%] items-center justify-center'>
+        <div className='grid grid-cols-1  md:grid-cols-2  md:w-[90%] lg:w-[70%] items-center justify-center'>
             
-        <form className='flex flex-col w-[350px]' onSubmit={handleSubmit}>
-                <input className='w-[350px] h-[50px] border-2 border-[#f2f3f2] rounded-lg bg-black p-[20px] text-[#f2f3f2]' type="text" placeholder='Name' name="name" required />
-                <input className='w-[350px] h-[50px] border-2 border-[#f2f3f2] rounded-lg bg-black p-[20px] text-[#f2f3f2] mt-[20px]' type="email" placeholder='Email' name="email" required />
-                <input className='w-[350px] h-[50px] border-2 border-[#f2f3f2] rounded-lg bg-black p-[20px] text-[#f2f3f2] mt-[20px]' type="text" placeholder='Subject' name="subject" required />
-                <textarea className='w-[350px] h-[150px] border-2 border-[#f2f3f2] rounded-lg bg-black p-[20px] text-[#f2f3f2] mt-[20px]' placeholder='Message' name="message" required></textarea>
+        <form className='flex flex-col   w-[330px] md:w-[350px]]' onSubmit={handleSubmit}>
+                <input className=' w-[330px] md:w-[350px] h-[50px] border-2 border-[#f2f3f2] rounded-lg bg-black p-[20px] text-[#f2f3f2]' type="text" placeholder='Name' name="name" required />
+                <input className=' w-[330px] md:w-[350px] h-[50px] border-2 border-[#f2f3f2] rounded-lg bg-black p-[20px] text-[#f2f3f2] mt-[20px]' type="email" placeholder='Email' name="email" required />
+                <input className=' w-[330px] md:w-[350px] h-[50px] border-2 border-[#f2f3f2] rounded-lg bg-black p-[20px] text-[#f2f3f2] mt-[20px]' type="text" placeholder='Subject' name="subject" required />
+                <textarea className=' w-[330px] md:w-[350px] h-[150px] border-2 border-[#f2f3f2] rounded-lg bg-black p-[20px] text-[#f2f3f2] mt-[20px]' placeholder='Message' name="message" required></textarea>
                 <button className='text-white w-[200px] h-[68px] border-2 border-[#0FE1C2] rounded-lg mt-[20px]' type="submit">Send</button>
             </form>
             
             <div>
                 <h2 className='font-bold text-[32px] mt-[20px]'>DON’T BE SHY</h2>
-                <p className='   mt-[20px]'>Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect. I'm always open to new projects and discussions.</p>
+                <p className=' w-[330px]  mt-[20px] lg:w-[500px]'>Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect. I'm always open to new projects and discussions.</p>
                 <div className='flex justify-between items-center w-[300px] mt-[20px]'>
                     <img className='w-[45px] h-[30px]' src="/images/Vector.png" alt="" />
                     <div >

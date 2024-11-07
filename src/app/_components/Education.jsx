@@ -11,8 +11,8 @@ const Education = forwardRef((props, ref) => {
             <div className='w-full'>
                 <h1 className='text-[48px] mb-[10px] text-center'>Education</h1>
             </div>
-            <div className='grid grid-cols-1   lg:grid-cols-3  md:[80%]'>
-                    <div className='h-[400px] flex items-center'>
+            <div className='grid grid-cols-1   lg:grid-cols-3  '>
+                    <div className='flex items-center'>
                         <h3 className=' lg:text-[48px] italic text-[32px] '>Common core 
                         </h3>
                     </div>
@@ -27,7 +27,7 @@ const Education = forwardRef((props, ref) => {
                         <p className='text-[14px]'>2022 - 2024</p>
                         <h3 className='text-[24px]'>Common core at 1337 School </h3>
                         <p className='text-[#9F9F9F]'>1337 UM6P, Benguerir</p>
-                        <p className='text-[#9F9F9F] w-[350px]'>The leading computer science training program in Morocco, part of the 42 Network</p>
+                        <p className='text-[#9F9F9F] w-[300px] md:w-[350px]'>The leading computer science training program in Morocco, part of the 42 Network</p>
                     </div>
                     <div className='mt-[20px]'>
                         <p className='text-[14px]'>2021 - 2022</p>
