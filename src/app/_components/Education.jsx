@@ -13,7 +13,7 @@ const Education = forwardRef((props, ref) => {
             </div>
             <div className='grid grid-cols-1   lg:grid-cols-3  '>
                     <div className='flex items-center'>
-                        <h3 className=' lg:text-[48px] italic text-[32px] '>Common core 
+                        <h3 className=' lg:text-[48px] italic text-[32px] lg:block hidden'>Common core 
                         </h3>
                     </div>
                 

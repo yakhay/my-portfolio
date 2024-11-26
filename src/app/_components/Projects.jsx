@@ -36,7 +36,7 @@ const Projects = forwardRef((props, ref) => {
                 <div data-aos="fade-right" className='w-[340px] md:w-auto'>
                     <img className='rounded-t-lg'  src="/images/Projects/Screenshot 2024-11-03 at 10.06.35.png" alt="" />
                     <div className='flex justify-center items-center flex-col '>
-                        <a target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center w-[150px] h-[50px] border-2 border-[#0FE1C2] rounded-lg mt-[20px] hover:bg-[#0FE1C2]' href="https://garb-anzo.tech/"> View project</a>
+                        <a target="_blank" rel="noopener noreferrer" className=' flex justify-center items-center w-[150px] h-[50px] border-2 border-[#0FE1C2] rounded-lg mt-[20px] hover:bg-[#0FE1C2]' href="https://github.com/Abdeladim-Fadlane/42cursus-ft_transcendence"> View code</a>
                     </div>
                     
                 </div>
