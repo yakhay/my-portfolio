@@ -49,9 +49,9 @@ const Contact = forwardRef((props, ref) => {
             </form>
             
             <div>
-                <h2 className='font-bold text-[32px] mt-[20px]'>DON’T BE SHY</h2>
-                <p className=' w-[330px]  mt-[20px] lg:w-[500px]'>Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect. I'm always open to new projects and discussions.</p>
-                <div className='flex justify-between items-center w-[300px] mt-[20px]'>
+                <h2 className='font-bold text-[32px] mt-[20px] md:text-start text-center'>DON’T BE SHY</h2>
+                <p className=' w-[330px]  mt-[20px] lg:w-[500px] Inconsolata md:text-start text-center'>Feel free to reach out if you have any questions, collaboration opportunities, or just want to connect. I'm always open to new projects and discussions.</p>
+                <div className='flex justify-around items-center w-[300px] mt-[20px]'>
                     <img className='w-[45px] h-[30px]' src="/images/Vector.png" alt="" />
                     <div >
                         <h3>Email</h3>
@@ -61,9 +61,9 @@ const Contact = forwardRef((props, ref) => {
                     
                 </div>
                 
-                <div className='flex justify-start items-center w-[300px] mt-[20px]'>
+                <div className='flex justify-around items-center w-[300px] mt-[20px]'>
                         <FaPhoneAlt color='#0FE1C2' className='w-[45px] h-[30px]'/>
-                        <div className='ml-[50px]'>
+                        <div className='w-[200px]'>
                             <h3>Phone</h3>
                             <p>+212 7 67 49 92 01</p>
                         </div>
