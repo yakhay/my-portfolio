@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Head from 'next/head'; 
 import Footer from "./_components/Footer";
+import ParticlesComponent from "./_components/particles";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,6 +29,7 @@ export default function RootLayout({ children, pageMetadata }) {
     <html lang="en">
       
       <body className="bg-black">
+      <ParticlesComponent id='particles' />
         {children}
         <Footer />
       </body>
