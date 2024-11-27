@@ -1,3 +1,4 @@
+'use client';
 
 import { LuDownloadCloud } from "react-icons/lu";
 import React, { forwardRef } from 'react';

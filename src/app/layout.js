@@ -1,6 +1,7 @@
+
 import localFont from "next/font/local";
 import "./globals.css";
-import Head from 'next/head'; 
+
 import Footer from "./_components/Footer";
 import ParticlesComponent from "./_components/particles";
 
@@ -19,7 +20,7 @@ const geistMono = localFont({
 export const metadata = {
   title: "Yassine Khay",
   description: "Khay Yassine portfolio",
-  image: "/images/yakhay.png" // Change this to your new image path
+  image: "/images/yakhay.png" 
 };
 
 export default function RootLayout({ children, pageMetadata }) {
