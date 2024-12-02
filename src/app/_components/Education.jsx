@@ -31,7 +31,7 @@ const Education = forwardRef((props, ref) => {
                     </div>
                     <div className='mt-[20px]'>
                         <p className='text-[14px]'>2021 - 2022</p>
-                        <h3 className='text-[24px]'>1 years in ofppt</h3>
+                        <h3 className='text-[24px]'>1 year in ofppt</h3>
                         <p className='text-[#9F9F9F]'>Ista , Benguerir</p>
                         <p className='text-[#9F9F9F]'>dev degital</p>
                     </div>

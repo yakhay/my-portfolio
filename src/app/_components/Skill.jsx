@@ -21,11 +21,11 @@ const Skill = forwardRef((props, ref) => {
                 <p className='mt-[15px] md:text-[30px] text-[24px]'>c++</p>    
             </div>
             <div className='flex items-center justify-center  flex-col'>
-                <img className='w-[100px] md:w-[150px]' src="/images/skills/Group 15 (2).png" alt="" />
+                <img className='w-[100px] md:w-[150px]' src="/images/skills/Group 15 (3).png"   alt="" />
                 <p className='mt-[15px] md:text-[30px] text-[24px]'>javascript</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>
-                <img className='w-[100px] md:w-[150px]' src="/images/skills/Group 15 (5).png" alt="" />
+                <img className='w-[100px] md:w-[150px]' src="/images/skills/Group 15 (2).png"  alt="" />
                 <p className='mt-[15px] md:text-[30px] text-[24px]'>react</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>
@@ -33,7 +33,7 @@ const Skill = forwardRef((props, ref) => {
                 <p className='mt-[15px] md:text-[30px] text-[24px]'>html && css</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>
-                <img className='w-[100px] md:w-[150px]' src="/images/skills/Group 15 (3).png" alt="" />
+                <img className='w-[100px] md:w-[150px]' src="/images/skills/Group 15 (5).png" alt="" />
                 <p className='mt-[15px] md:text-[30px] text-[24px]'>Next js</p>
             </div>
             <div className='flex items-center justify-center  flex-col'>

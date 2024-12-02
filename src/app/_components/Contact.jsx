@@ -3,6 +3,7 @@
 
 import emailjs from 'emailjs-com';
 import { FaPhoneAlt } from "react-icons/fa";
+import Link from 'next/link';
 
 
 import React, { forwardRef } from 'react';
@@ -54,8 +55,11 @@ const Contact = forwardRef((props, ref) => {
                 <div className='flex justify-around items-center w-[300px] mt-[20px]'>
                     <img className='w-[45px] h-[30px]' src="/images/Vector.png" alt="" />
                     <div >
-                        <h3>Email</h3>
-                        <p>yassinekhay.dev@gmail.com</p>
+                        <h3>Email :</h3>
+                        <Link href="mailto:yassinekhay.dev@gmail.com">
+                        yassinekhay.dev@gmail.com
+                        </Link>
+                        
                     </div>
                     
                     
@@ -64,7 +68,7 @@ const Contact = forwardRef((props, ref) => {
                 <div className='flex justify-around items-center w-[300px] mt-[20px]'>
                         <FaPhoneAlt color='#0FE1C2' className='w-[45px] h-[30px]'/>
                         <div className='w-[200px]'>
-                            <h3>Phone</h3>
+                            <h3>tel :</h3>
                             <p>+212 7 67 49 92 01</p>
                         </div>
                 </div>
